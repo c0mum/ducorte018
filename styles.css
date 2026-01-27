@@ -5,12 +5,29 @@
     font-family: 'Poppins', sans-serif;
 }
 
+headings, h1, h2, h3, h4, h5, h6 {
+    font-weight: bold;
+    color: #fff;
+}
+
+headings span {
+    color: #5d5a56;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     background: #0d0d0d;
     color: #fff;
     scroll-behavior: smooth;
 }
 
+a {
+    text-decoration: none;
+    color: inherit;
+}
 
 .navbar {
     position: fixed;
@@ -62,6 +79,10 @@ h2 span {
     align-items: center;
     line-height: 1.8rem;
     font-size: 1.2rem;
+    background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)),
+                url('/img/fundo.png') no-repeat center center;
+    background-size: cover;
+    background-attachment: fixed; /* imagem fixa enquanto rola a página */
 }
 
 .about p {
